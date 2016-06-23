@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import cgi
-import html
 
 form = cgi.FieldStorage()
 
@@ -16,7 +15,7 @@ def multiply (num_1, num_2):
 	return num_1 * num_2
 def divide (num_1, num_2):
     if num_2 == 0:
-        return "Wrong operation. Cannot divide by 0"
+        return "Cannot divide by 0"
         quit()
     else:
         return (num_1/num_2)
