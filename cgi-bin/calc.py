@@ -31,4 +31,4 @@ print ("<p>{}</p>".format(result))
 
 """the program executes basic calculation operations such as adding, 
 substruction, multiplication and division of two numbers.
-program gets two input numbers and selected operation from index.html form, processes get values and returns result of calculation. there is set a max. allowed floating step of 0.01 for input"""
+program gets two input numbers and selected operation from form index.html, processes get values and returns result of calculation. there is set a max. allowed floating step of 0.01 for input"""
